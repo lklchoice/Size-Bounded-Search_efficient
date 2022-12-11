@@ -6,6 +6,4 @@ public class Comparators {
         cmp1 = Comparator.comparingInt(o -> o.degree);
         cmp2= (o1, o2) -> Integer.compare(o2.connectionScore, o1.connectionScore);
     }
-
-
 }
