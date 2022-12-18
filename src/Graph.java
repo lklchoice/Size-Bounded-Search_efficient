@@ -37,6 +37,7 @@ public class Graph {
             if(rest.isEmpty())break;
             for(Vertex u:rest){
                 if(u.degree<k){
+                    //lkl
                     if(!vis.contains(u)){
                         vis.add(u);
                         u.coreNumber=k-1;
